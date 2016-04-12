@@ -1,0 +1,84 @@
+/*
+	Party Bar Homepage Style Sheet
+	Author: Russell Walton & Adam Schleiermacher
+	Date: Nov.3 2014
+	Filename: home_styles.css
+*/
+
+header {
+	margin-bottom: 4px;
+}
+
+/* Body styles */
+
+body {
+	min-width: 1200px;
+
+}
+
+
+
+/* Styles for link images */
+
+/* 2.3.2 j) */
+#Photos {
+	width: 320px;
+	min-width: 320px;
+	border: 2px solid rgb(0,0,0);
+}
+
+#Photos:hover {
+	opacity: 0.8;
+}
+
+#Videos {
+	width: 320px;
+	min-width: 320px;
+	border: 2px solid rgb(0,0,0);
+}
+
+#Videos:hover {
+	opacity: 0.8;
+}
+
+#Stories {
+	width: 320px;
+	min-width: 320px;
+	border: 2px solid rgb(0,0,0);
+}
+
+/* 2.3.2 g), p) */
+#Stories:hover {
+	opacity: 0.8;
+}
+
+.photoslink	{
+	position: relative;
+}
+
+.videoslink {
+	position: relative;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.storieslink {
+	position: relative;
+}
+
+
+
+#lastupdate {
+	font-size: 0.5em;
+	kerning: 2em;
+	opacity: 0.5;
+}
+
+#outer {
+	clear: both;
+}
+
+#index {
+	color: blue;
+	font-size: 2em;
+}

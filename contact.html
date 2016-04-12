@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	<!--
+		Party Bar Contact Page
+		Author: Russell Walton
+		Date: Nov.21 2014
+		Filename: contact.html
+		Supporting files: Party Bar Logo tab.ico,modernizr-1.5.js,Party Bar Logo.jpg,
+					ricepaper2.png
+	-->
+	
+	<meta charset="UTF-8" />
+	<meta name="description" content="Party%20Bar%20Productions" />
+	<meta name="keywords" content="Photographer,Video,Production,Cinematography,Photography" />
+	<meta name="author" content="Russell%20Walton%20and%20Adam%20Schleiermacher" />
+	<title>PARTY BAR</title>
+	<script src="modernizer-1.5.js"></script>
+
+	<script>
+		function validateForm() {
+		var x = document.forms["form"]["custemail"].value;
+		var atpos = x.indexOf("@");
+		var dotpos = x.lastIndexOf(".");
+		if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+			alert("Not a valid e-mail address");
+			return false;
+			}
+		}
+	</script>
+	<link rel="icon" href="Party%20Bar%20Logo%20tab.ico" />
+	<link href="party_bar_styles.css" rel="stylesheet" type="text/css" />
+	<link href="contact_styles.css" rel="stylesheet" type="text/css" />
+	
+	</head>
+	
+	<body>
+		<header>
+			<a href="home.html"><img id="logo" src="images/Party%20Bar%20Logo.jpg" alt=""/></a>
+			<br />
+			<br />
+			<h1>Party Bar</h1>	
+			<br />
+			<br />
+		</header>
+		
+		<nav class="horizontalNAV">
+			<ul>
+				<li><a href="home.html">home</a></li>
+				<li><a href="photos.html">photos</a></li>
+				<li><a href="videos.html">videos</a></li>
+				<li><a href="stories.html">stories</a></li>
+			</ul>
+		</nav>
+		
+		<div id="outter">
+			<div id="inner">
+				<form action="MAILTO:party.bar.productions@gmail.com" name="form"
+					  method="post" enctype="text/plain" onsubmit="return validateForm()"> 
+					<fieldset id="fs1">
+						<legend>contact party bar</legend>
+						
+						<label for="custname">name*</label>
+						<input name="custname" id="custname" required="required"
+							   placeholder="first and last name" />
+						<br />
+						
+						<label for="custname">phone number*</label>
+						<input name="custphone" id="custphone" required="required"
+							   placeholder="(xxx) xxx-xxxx" />
+						<br />	   
+						
+						<label for="streetaddress">street address</label>
+						<input name="streetaddress" id="streetaddress" />
+						<br />
+						
+						<label for="province">province</label>
+						<select name="province" id="province" size="1" >
+							<option value="ab">AB</option>
+							<option value="bc">BC</option>
+							<option value="sk">SK</option>
+							<option value="mb">MB</option>
+							<option value="on">ON</option>
+							<option value="qc">QC</option>
+							<option value="nl">NL</option>
+							<option value="nb">NB</option>
+							<option value="pe">PE</option>
+							<option value="ns">NS</option>
+							<option value="nt">NT</option>
+							<option value="yt">YT</option>
+							<option value="nu">NU</option>
+						</select>
+						<br />
+							   
+						<label for="custemail">e-mail address*</label>
+						<input name="custemail" id="custemail" />
+						<br />
+						
+						<p id="req">* indicates required field</p>
+						
+					</fieldset>
+					
+					<fieldset id="fs2">
+						<legend>event information</legend>
+						
+						<label for="eventdate">date of event</label>
+						<input name="eventdate" id="eventdate" type="date">
+						
+						<label for="event">what type of event? <br />if other, please specify</label>
+						<select name="event" id="event" size="4" >
+							<option value="wedding">Wedding</option>
+							<option value="sports">Sports</option>
+							<option value="party">Party</option>
+							<option value="commercial">Commercial</option>
+							<option value="engagement">Engagement</option>
+							<option value="advertisement">Advertisement</option>
+							<option value="graduation">Graduation</option>
+							<option value="newborn">Newborn</option>
+							<option value="family">Family</option>
+							<option value="other">Other</option>
+						</select>
+						<br />
+						
+						<label for="other">other</label>
+						<input name="other" id="other"
+							   placeholder="other" />
+						<br />
+						
+						<label>would you like a quote?<br /></label>
+						<fieldset class="optionGroup">
+							<label for="sYes">Yes</label>
+							<input type="radio" name="quote" id="sYes"
+								   value="yes" />
+								   
+							<label for="sNo">No</label>
+							<input type="radio" name="quote" id="sNo"
+								   value="no" checked="checked" />
+						</fieldset>
+						
+					</fieldset>
+					
+					<p>
+						<input type="submit" value="submit" />
+						<input type="reset" value="reset" />
+					</p>
+				</form>
+			</div>
+		</div>
+		
+		<footer>
+			<p>
+				<br />
+				<br />
+				<a href="contact.html">Contact Party Bar</a>
+			</p>
+		</footer>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

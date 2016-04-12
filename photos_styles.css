@@ -1,0 +1,99 @@
+/*
+	Party Bar Photos page Style Sheet
+	Author: Russell Walton & Adam Schleiermacher
+	Date: Nov.9 2014
+	Filename: photos_styles.css
+*/
+
+/* List Styles */
+
+ul {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+ul li img{
+	top: 10px;
+	height: 200px;
+	/*width: 30%;*/
+	/*min-width: 320px;*/
+	border: 2px solid rgb(0,0,0);
+	margin-left:15px;
+	margin-top:15px;
+}
+
+ul.p3 li img{
+	top: 10px;
+	height: 226px;
+	border: 2px solid rgb(0,0,0);
+	margin-left:15px;
+	margin-top:15px;
+}
+
+ul.p3t1 li img{
+	top: 10px;
+	height: 192.4px;
+	border: 2px solid rgb(0,0,0);
+	margin-left:15px;
+	margin-top:15px;
+}
+
+ul.p4 li img{
+	top: 10px;
+	height: 165.6575px;
+	border: 2px solid rgb(0,0,0);
+	margin-left:15px;
+	margin-top:15px;
+}
+
+ul.p2t1s1 li img{
+	top: 10px;
+	height: 182.5px;
+	border: 2px solid rgb(0,0,0);
+	margin-left:15px;
+	margin-top:15px;
+}
+
+ul.p2t2 li img{
+	top: 10px;
+	height: 229.5px;
+	border: 2px solid rgb(0,0,0);
+	margin-left:15px;
+	margin-top:15px;
+}
+
+ul.p2t1 li img{
+	top: 10px;
+	height: 276.5px;
+	border: 2px solid rgb(0,0,0);
+	margin-left:15px;
+	margin-top:15px;
+}
+
+#outter {
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

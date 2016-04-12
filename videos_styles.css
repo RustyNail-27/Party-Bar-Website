@@ -1,0 +1,26 @@
+/*  Embedded YouTube video styles */
+
+section {
+	clear: left;
+}
+
+object {
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+
+h2 {
+	font-weight:normal;
+	font-family: "Source Code Pro","Courier New", Courier6, monospace;
+	font-variant: small-caps;
+	font-size: 27.5px;
+	font-weight: 100;
+	letter-spacing: 0.1em;
+	word-spacing: -0.2em;
+	color: rgb(0,0,0);
+	margin: 0px;	
+	text-align: center;
+}
